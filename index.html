@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> th, td {
+        border: 1px solid black;
+        font-style:oblique;
+        
+    }
+    tfoot {background-color: aquamarine;}</style>
+    <!-- defini bordas sytle -->
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>Produto</th>
+            <th>quantidade</th>
+            <th>Preço</th>
+            <th>Black friday</th>
+
+        </tr> 
+        <!-- tr tablle roll -->
+
+
+        </thead>
+
+        <tbody>
+<tr>
+    <td>produto 1</td>
+    <td>2</td>
+    <td>5$</td>
+    <td>não</td>  </tr>
+
+<tr>
+    <td>produto 2</td>
+    <td>99</td>
+    <td>999$</td>
+    <td rowspan="2">sim</td>  </tr>
+    <!-- rowspan aumenta a area ocupada pela informação no caso "SIM" para linhas de baixo variando pelo valor informado no caso "2" -->
+
+<tr>
+        <td>produto 3</td>
+        <td>1</td>
+        <td>1$</td>
+       
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+
+
+                <td colspan="3">Total</td>
+                <td>30$</td>
+                <!-- colspan mesma coisa que o rowspan so q com colunas -->
+            </tr>
+
+
+        </tfoot>
+
+
+
+
+
+    </table>
+</body>
+</html>
